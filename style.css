@@ -1,0 +1,119 @@
+.top-header a:hover{
+    text-decoration: none;
+}
+.nav-link{
+    margin: 10px;
+    color: rgb(0,0,255) !important;
+    font-weight: bold;
+}
+.nav-link:hover{
+    color: rgb(255,255,255) !important;
+    background-color: rgb(0,0,255);
+    border-radius: 5px;
+    border-radius: 20px 0px 20px 0px;
+}
+.about_heading{
+    color: 	rgb(0,128,0);
+    margin-left: 15px;
+    font-weight: bold;
+}
+p{
+    text-align: justify;
+}
+.about{
+    margin-top: 50px;
+}
+h3{
+    color: rgb(0,0,255);
+    font-style: italic;
+}
+.service-1, .service-2, .service-3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: rgb(255,250,205);
+    box-shadow: 2px 4px 5px gray;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.services{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /* for responsive */
+    flex-wrap: wrap;
+}
+.fa-users, .fa-cart-arrow-down, .fa-thumbs-o-up{
+    font-size: 32px !important;
+    color: rgb(0,0,255);
+    margin-right: 10px;
+}
+.latest-models{
+    margin-top: 100px;
+}
+.card{
+    margin-top: 40px;
+    width: 250px;
+    height: auto;
+    margin-bottom: 5px;
+    background-color: rgb(255,250,205) !important;
+    /* justify-content: center; */
+    align-items: center;
+}
+.card-text{
+    font-weight: bold;
+}
+.btn-primary{
+    width: 100%;
+    background-color: rgb(0,0,255) !important;
+}
+.heading{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(0,0,255);
+    margin: 20px;
+    background-color: rgb(255,250,205) !important;
+}
+.card-img-top{
+    cursor: pointer;
+}
+.footer{
+    margin-top: 50px;
+    background-color: rgb(0,0,255);
+    height: 50px;
+    color: rgb(255,255,255);
+}
+.footer>div{
+    text-align: center;
+    align-items: center;
+}
+.about-text{
+    margin-right: 30px;
+    margin-left: 15px;
+}
+.about-sub-heading{
+    margin-left: 15px;
+    font-size: 30px;
+}
+.contact-us{
+    text-align: center;
+}
+.contact-heading{
+    color: rgb(0,128,0);
+}
+.goto-top-button{
+    position: fixed;
+    width: 50px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.1);
+    color: rgb(255,255,255);
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 50px;
+    margin-top: 0;
+}
